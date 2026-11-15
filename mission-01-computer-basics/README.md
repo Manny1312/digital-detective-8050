@@ -1,64 +1,64 @@
-# Mission 1 — Know Your Computer (Computer Basics & IPOS)
+# Mission 1 — Know Your Computer
 
 ## 1. Task
-Analyze a daily computer activity using the IPOS (Input, Processing, Output, Storage) model, identify hardware and software components on my MacBook, and examine three everyday computer-based systems.
+Trace a daily task on my laptop using the IPOS model, list the hardware and software I actually use, and look at three everyday computer systems outside of laptops and phones.
 
 ## 2. Work Completed
 
-### Task 1.1 — Trace One Activity Using IPOS
-**Activity Chosen:** Writing and saving a Python script in VS Code.
+### Task 1.1 — Tracing an Activity with IPOS
+**Activity:** Searching for a song on Spotify and playing it on my MacBook.
 
 | Stage | What Happens | Hardware / Component Involved |
 | :--- | :--- | :--- |
-| **Input** | Typing code characters and pressing `Cmd + S` to save the file. | MacBook Built-in Keyboard & Trackpad |
-| **Processing** | VS Code parses the syntax, and the system translates the keystrokes and file-save instructions into binary operations. | Apple Silicon / Intel CPU & Unified Memory (RAM) |
-| **Output** | Syntax-highlighted code appears on the screen, and the unsaved dot icon disappears to confirm the save. | MacBook Retina Display (Monitor) |
-| **Storage** | The `.py` file data is written permanently to the local project folder on disk. | Internal Solid-State Drive (SSD) |
+| **Input** | I click the search bar and type the song name, then hit Enter. | Built-in Trackpad and Keyboard |
+| **Processing** | The app sends the search request, loads the audio stream, and decodes the sound data. | Apple Silicon Chip (CPU) and RAM |
+| **Output** | The song plays through the speakers and the album cover shows up on screen. | Built-in Speakers and Retina Display |
+| **Storage** | My recent search history and cached song data get saved locally so it loads faster next time. | Internal SSD |
 
-### Task 1.2 — Identify Hardware and Software
+### Task 1.2 — Hardware and Software on My System
 
-#### Hardware Components (At Least 4)
+#### Hardware
 
-| Hardware Item | Classification | Purpose |
+| Item | Type | What It Does |
 | :--- | :--- | :--- |
-| **Built-in Keyboard** | Input Device | Captures keystrokes for typing commands, text, and code. |
-| **Force Touch Trackpad** | Input Device | Tracks finger movement and clicks to navigate the user interface. |
-| **Retina Display** | Output Device | Renders visual graphics, text, and application windows for the user. |
-| **Internal SSD** | Storage Device | Stores the operating system, applications, and project files permanently. |
-| **CPU (Processor)** | Processing Unit | Executes program instructions and performs logical/arithmetic calculations. |
+| **Keyboard** | Input | Lets me type commands, code, and notes. |
+| **Trackpad** | Input | Lets me move the cursor, click, and scroll. |
+| **Retina Display** | Output | Shows everything visually on screen. |
+| **Built-in Speakers** | Output | Plays audio from videos, music, and calls. |
+| **Internal SSD** | Storage | Stores macOS, all my apps, and my project folders permanently. |
 
-#### Software Components (At Least 4)
+#### Software
 
-| Software Example | Classification | Purpose |
+| Software | Type | What It Does |
 | :--- | :--- | :--- |
-| **macOS** | Operating System | Manages hardware resources, memory, files, and provides the user interface. |
-| **Visual Studio Code** | Application Software | Provides a code editor and integrated terminal for writing and managing projects. |
-| **Safari / Web Browser** | Application Software | Accesses web pages, documentation, and GitHub repositories over the internet. |
-| **Activity Monitor / Disk Utility** | Utility Software | Monitors system resource usage (CPU/RAM) and manages disk health and storage. |
+| **macOS** | Operating System | Runs the laptop, manages memory and files, and lets apps talk to the hardware. |
+| **VS Code** | Application | Where I edit my Markdown files, write Python code, and run Git commands. |
+| **Safari** | Application | Browser I use to check GitHub and look up documentation. |
+| **Activity Monitor** | Utility | Shows which apps are using the most CPU, memory, or battery. |
 
-### Task 1.3 — Computer Systems Around You (3 Non-Laptop/Phone Systems)
+### Task 1.3 — Computer Systems Around Me
 
-| Everyday System | Main Purpose | One Input | One Output |
+| System | Main Purpose | One Input | One Output |
 | :--- | :--- | :--- | :--- |
-| **ATM (Automated Teller Machine)** | Dispenses cash and processes basic banking transactions. | Debit card insertion and PIN entry on the keypad. | Dispensed cash bills and a printed receipt. |
-| **Microwave Oven** | Heats or cooks food for a set duration and power level. | Pressing time and power buttons on the control panel. | Heated food, interior light, and an audio completion beep. |
-| **Metro Ticket Vending Machine** | Issues transit tokens or smart card recharges for commuters. | Selecting destination station on the touchscreen and inserting cash/UPI scan. | Printed QR ticket or updated smart card balance. |
+| **Namma Metro Ticket Machine** | Sells QR tickets and recharges metro smart cards. | Tapping the destination station on the touchscreen. | Printing the paper QR ticket. |
+| **Bank ATM** | Lets people withdraw cash and check their balance. | Inserting a debit card and typing the PIN on the keypad. | Dispensing cash notes and showing the balance on screen. |
+| **Washing Machine** | Automates washing and spinning clothes based on load type. | Pressing the cycle dial and start button. | Spinning the drum and beeping when the wash finishes. |
 
 ## 3. Commands / Tools Used
-* **Visual Studio Code**: Used to edit and format `README.md` in Markdown.
-* **Git (`git add`, `git commit`, `git push`)**: Used to stage, commit, and push Mission 1 separately to GitHub.
+* **VS Code** to write and format the Markdown file.
+* **Git** (`git add`, `git commit`, `git push`) to save and upload this mission.
 
 ## 4. My Understanding
-Every computing task follows the IPOS cycle—raw data enters through input hardware, gets processed in memory by the CPU, produces immediate feedback via output hardware, and is preserved on storage media. Hardware provides the physical machinery, while system, application, and utility software direct how that hardware behaves.
+Even simple things like playing a song rely on the IPOS loop—taking an action from me, processing data in memory, giving audio/visual output, and saving cache files to the drive. Hardware is just the physical parts, while the OS and apps tell those parts what to do.
 
 ## 5. Difficulties Faced
-Distinguishing clearly between temporary memory (RAM) during the processing stage and permanent storage (SSD) during the storage stage when tracing a file save.
+At first, I mixed up RAM and the SSD when thinking about where the song data sits while playing.
 
 ## 6. How I Resolved Them
-Reviewed how an editor holds unsaved text in RAM while typing, and only writes the data to the SSD when the save command is triggered.
+I double-checked how streaming works: active playback data sits temporarily in RAM while the CPU processes it, whereas cached files and app data stay on the SSD.
 
 ## 7. Evidence / Files
 * `mission-01-computer-basics/README.md`
 
 ## 8. Commit Details
-* **Commit Message**: `Complete computer basics and IPOS mission`
+* **Commit Message**: `Update Mission 1 with realistic examples`
